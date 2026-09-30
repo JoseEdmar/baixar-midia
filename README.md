@@ -41,7 +41,6 @@ O usuário pode:
 * **yt-dlp**
 * **Node.js** — utilizado como runtime JavaScript pelo yt-dlp
 * **FFmpeg** — utilizado para processamento, conversão e junção de mídia
-* **PyInstaller** — utilizado para gerar executáveis
 
 ---
 
@@ -55,7 +54,6 @@ Baixador-Midia/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-└── iniciar.bat
 ```
 
 > A estrutura pode variar conforme a versão do projeto.
