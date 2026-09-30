@@ -15,7 +15,6 @@ A aplicação possui uma interface gráfica própria, desenvolvida em Python com
 * ⚙️ Utilização do `yt-dlp` como mecanismo de download
 * 🎬 Utilização do FFmpeg para processamento e conversão de mídia
 * 🐍 Desenvolvido em Python
-* 📦 Possibilidade de compilação como executável para Windows
 
 ---
 
@@ -194,28 +193,6 @@ O modo MP4 utiliza o `yt-dlp` para obter vídeo e áudio e, quando necessário, 
 O modo MP3 utiliza o `yt-dlp` para extrair o áudio e convertê-lo para MP3 utilizando o FFmpeg.
 
 ---
-
-## 📦 Gerando um executável
-
-O projeto pode ser compilado utilizando o **PyInstaller**.
-
-Instale o PyInstaller:
-
-```bash
-pip install pyinstaller
-```
-
-Depois execute:
-
-```bash
-pyinstaller --onefile --windowed main.py
-```
-
-O executável será criado dentro da pasta:
-
-```text
-dist/
-```
 
 > Dependendo da forma como o projeto for distribuído, os programas externos utilizados pelo aplicativo, como FFmpeg, Node.js e yt-dlp, podem continuar sendo necessários no computador do usuário.
 
