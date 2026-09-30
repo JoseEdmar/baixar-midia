@@ -81,7 +81,7 @@ git clone https://github.com/JoseEdmar/baixar-midia.git
 Entre na pasta do projeto:
 
 ```bash
-cd Baixador-Midia
+cd baixar-midia
 ```
 
 ### 3. Instalar as dependências Python
