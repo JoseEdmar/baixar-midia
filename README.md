@@ -75,7 +75,7 @@ O Firefox é utilizado pelo `yt-dlp` para obter os cookies do navegador através
 ### 2. Clonar o repositório
 
 ```bash
-git clone https://github.com/JoseEdmar/Baixador-Midia.git
+git clone https://github.com/JoseEdmar/baixar-midia.git
 ```
 
 Entre na pasta do projeto:
